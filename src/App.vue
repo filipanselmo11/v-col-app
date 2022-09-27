@@ -33,18 +33,23 @@
       </v-btn>
     </v-app-bar>
 
+    <br/><br/>
+
     <v-main>
       <v-col-component-1></v-col-component-1>
+      <br/><br/>
+      <v-col-component-2></v-col-component-2>
     </v-main>
   </v-app>
 </template>
 
 <script>
 import VColComponent1 from './components/VColComponent1.vue';
+import VColComponent2 from './components/VColComponent2.vue';
 export default {
   name: "App",
 
-  components: {VColComponent1},
+  components: {VColComponent1, VColComponent2},
 
   data: () => ({
     //
