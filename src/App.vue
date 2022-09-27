@@ -39,6 +39,10 @@
       <v-col-component-1></v-col-component-1>
       <br/><br/>
       <v-col-component-2></v-col-component-2>
+      <br><br/>
+      <v-col-component-3></v-col-component-3>
+      <br/><br/>
+      <v-col-component-4></v-col-component-4>
     </v-main>
   </v-app>
 </template>
@@ -46,10 +50,12 @@
 <script>
 import VColComponent1 from './components/VColComponent1.vue';
 import VColComponent2 from './components/VColComponent2.vue';
+import VColComponent3 from './components/VColComponent3.vue';
+import VColComponent4 from './components/VColComponent4.vue';
 export default {
   name: "App",
 
-  components: {VColComponent1, VColComponent2},
+  components: {VColComponent1, VColComponent2, VColComponent3, VColComponent4},
 
   data: () => ({
     //
